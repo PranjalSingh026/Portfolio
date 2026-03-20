@@ -1,0 +1,124 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #1e1e2f, #2c2c54);
+}
+
+/* Header */
+header {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    animation: fadeIn 1s ease-in;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+header p {
+    color: #bbb;
+}
+
+/* Resume Button */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #2c2c54;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    width: 80%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Headings */
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Skills */
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    background: #2c2c54;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+li:hover {
+    background: #444;
+    transform: scale(1.05);
+}
+
+/* Project Cards */
+.project {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+/* Project Button */
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: #2c2c54;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project a:hover {
+    background: #444;
+}
+
+/* Links */
+a {
+    color: #2c2c54;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
